@@ -13,9 +13,9 @@ class productspage:
         products = self.page.query_selector_all("[class='swa-product-tile-plp__top']")
         products[4].click()
 
-    def set_color(self):
+    def set_color(self,color):
         print("choosing ring color")
-        blue_colored_ring = self.page.get_by_role("link",name="Blue")
+        blue_colored_ring = self.page.get_by_role("link",name=color)
         blue_colored_ring.click()
 
     def set_size(self):

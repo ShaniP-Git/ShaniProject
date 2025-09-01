@@ -16,7 +16,6 @@ class findstorepage:
     def select_country(self):
         print("select country")
         country_combobox = self.page.locator("[class='swa-form-input__field swa-label-sans--medium']")
-        country_combobox.click()
         print("setting 'Isreal' as defult")
 
     def select_city(self):
