@@ -6,7 +6,6 @@ class menuPage:
         print("into init")
         self.page = page
 
-
     def click_on_search_button(self):
         print("clicking on search button")
         search_button = self.page.query_selector_all("[class='swa-link js-search-box']")

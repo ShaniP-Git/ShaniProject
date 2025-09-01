@@ -1,6 +1,7 @@
 import pytest
 from playwright.sync_api import sync_playwright
 
+
 @pytest.fixture
 
 def setup_swarovski():
@@ -13,3 +14,4 @@ def setup_swarovski():
         page.close()
         browser.close()
         print("test end")
+

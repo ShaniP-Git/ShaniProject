@@ -7,7 +7,6 @@ class findstorepage:
         print("into init")
         self.page = page
 
-
     def clicking_on_stores_button(self):
         print("clicking on stores button")
         stores_button = self.page.query_selector_all("[class='swa-link__icon swa-link__icon--left-locator']")

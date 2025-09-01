@@ -7,7 +7,6 @@ class productspage:
         self.page = page
         page.goto("https://www.swarovski.com/en-AA/c-swa-root/Categories/f/product-set/ps-metamorphosis/")
 
-
     def heart_ring_selection(self):
         print("looking for the heart ring")
         products = self.page.query_selector_all("[class='swa-product-tile-plp__top']")
