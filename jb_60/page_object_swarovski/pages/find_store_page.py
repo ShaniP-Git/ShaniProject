@@ -12,10 +12,6 @@ class findstorepage:
         stores_button = self.page.query_selector_all("[class='swa-link__icon swa-link__icon--left-locator']")
         stores_button[0].click()
 
-    def select_country(self):
-        print("select country")
-        country_combobox = self.page.locator("[class='swa-form-input__field swa-label-sans--medium']")
-        print("setting 'Isreal' as defult")
 
     def select_city(self):
         print("select city")
