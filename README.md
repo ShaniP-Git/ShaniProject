@@ -1,4 +1,4 @@
-#Automation project-'swarovski'
+# _**Automation project-'swarovski'**_
 
 My test project on the 'swarovski' company website.
 
